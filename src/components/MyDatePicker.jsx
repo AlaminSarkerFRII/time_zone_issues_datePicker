@@ -34,6 +34,7 @@ const MyDatePicker = () => {
         dateFormat="dd-MM-yyyy"
       />
       {selectedDate && <p>Selected date: {selectedDate.toLocaleDateString()}</p>}
+      
     </div>
   );
 };
