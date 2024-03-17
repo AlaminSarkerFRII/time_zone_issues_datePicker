@@ -9,7 +9,7 @@ const MyDatePicker = () => {
   useEffect(() => {
     const convertToDhakaTime = () => {
       const apiDate = '1999-03-20'; 
-      const localDate = moment(apiDate).tz('Asia/Dhaka').toDate(); // Convert to Asia/Dhaka time zone
+      const localDate = moment(apiDate).tz('Asia/Dhaka').toDate(); 
       setSelectedDate(localDate);
     };
 
